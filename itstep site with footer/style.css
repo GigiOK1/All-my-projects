@@ -1,0 +1,397 @@
+/* general css */
+* {
+  border: 0;
+  outline: 0;
+  margin: 0;
+  padding: 0;
+}
+/* imgs */
+.img {
+  display: flex;
+  max-width: 100%;
+}
+.logo {
+  padding-left: 16px;
+  padding-top: 9px;
+  max-height: 31px;
+  max-width: 31px;
+}
+/* imgs */
+/* /
+/
+/ */
+/* divs */
+.div1 {
+  display: flex;
+  flex-direction: column;
+  width: 1345px;
+  height: 670px;
+  margin-left: 297px;
+  margin-top: 154px;
+}
+.divTop {
+  display: flex;
+  flex-direction: row;
+}
+.boxParent {
+  display: flex;
+  flex-direction: row;
+  margin-left: 40px;
+  gap: 9px;
+}
+.boxChild {
+  display: flex;
+  width: 156px;
+  height: 51px;
+  border-radius: 4px;
+  background: #ebebeb;
+}
+.logo-text {
+  display: flex;
+  flex-direction: row;
+  width: 614px;
+  height: 51px;
+  border-radius: 4px;
+  background: #f3f3f3;
+}
+.map {
+  width: 975px;
+  height: 572px;
+  margin-top: 36px;
+}
+.rightDiv {
+  display: flex;
+  flex-direction: column;
+}
+.rightDivUp {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 54px;
+  margin-left: 48px;
+  max-width: 311px;
+  max-height: 430px;
+}
+.rightDivDo {
+  display: flex;
+  width: 322px;
+  height: 64px;
+  margin-top: 46px;
+  margin-left: 48px;
+  padding: 10px 24px;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 2px solid var(--d-03-a-3-b, #d03a3b);
+}
+.middleDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+/*  main divs */
+/* /
+/
+/ */
+/* texts */
+.p {
+  padding-left: 16px;
+  padding-top: 12px;
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 164.8%; /* 29.664px */
+}
+.pLarge {
+  margin-left: 48px;
+  color: #2a263c;
+  font-family: Noto Sans KR;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.p1 {
+  color: var(--black-7, #6d6b7c);
+  font-family: Noto Sans KR;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.p2 {
+  padding-top: 16px;
+  color: var(--black-10, #2a263c);
+  font-family: Noto Sans KR;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+/* p2 just with padding */
+.p3 {
+  padding-top: 44px;
+  color: var(--black-7, #6d6b7c);
+  font-family: Noto Sans KR;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.pRed {
+  color: #d03a3b;
+  text-align: center;
+  font-family: Noto Sans KR;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 164.8%; /* 32.96px */
+}
+.redboxdiv {
+  display: flex;
+  flex-direction: row;
+  margin-left: 60px;
+  border-style: solid;
+  border-width: 1px;
+  display: flex;
+  height: 57px;
+  width: 158px;
+  padding: 12px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  background: linear-gradient(96deg, #a80304 -5.7%, #cf393a 100.84%);
+  box-shadow: 0px 21px 21px -9px rgba(168, 3, 4, 0.31);
+}
+/* texts */
+/* /
+/
+/ */
+/* FOOTER and FOOTER DIVS*/
+footer {
+  display: flex;
+  background: linear-gradient(
+    97deg,
+    rgba(42, 38, 60, 0.9) 5.96%,
+    #2a263c 97.78%
+  );
+  height: 500px;
+}
+.fdiv1 {
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 288px;
+  margin-top: 32px;
+  max-height: 432px;
+  max-width: 1500px;
+}
+
+.fdivup {
+  display: flex;
+  flex-direction: row;
+}
+.fdu1 {
+  display: flex;
+  flex-direction: column;
+}
+.fdu2 {
+  display: flex;
+  flex-direction: row;
+
+  max-width: 776px;
+  margin-left: 202px;
+}
+.fdu2-1 {
+  display: flex;
+  flex-direction: column;
+}
+.fdu2-2 {
+  display: flex;
+  flex-direction: column;
+}
+.fdtext {
+  display: flex;
+  flex-direction: row;
+  max-width: 253px;
+}
+.fdivUP1 {
+  display: flex;
+  flex-direction: column;
+}
+.fdtext2 {
+  margin-top: 20px;
+  max-width: 336px;
+}
+.Flogo-number {
+  display: flex;
+  flex-direction: row;
+}
+.checkdiv {
+  display: flex;
+  flex-direction: row;
+}
+.fdivdo {
+  display: flex;
+  flex-direction: row;
+
+  margin-bottom: 50px;
+  height: 32px;
+  max-width: 100%;
+}
+.fdiv1 {
+  margin-left: 288px;
+}
+.fdiv2 {
+  margin-left: 50px;
+}
+.copyrightdiv {
+  max-width: 100%;
+
+  margin-left: 500px;
+}
+
+/* FOOTER TEXTS */
+.fdtext {
+  color: var(--White, #fff);
+  font-family: Noto Sans KR;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 200% */
+}
+.fp {
+  margin-top: 26px;
+  color: White;
+  font-family: Noto Sans KR;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 160% */
+}
+.fp2 {
+  margin-top: 20px;
+  color: White;
+  font-family: Noto Sans KR;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px; /* 177.778% */
+}
+.ftbignumber {
+  color: #fff;
+  font-family: Noto Sans KR;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-left: 22px;
+}
+.ftbigtext {
+  color: #fff;
+  font-family: Noto Sans KR;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.fwidthdiv {
+  max-width: 309px;
+}
+.ftextsmall {
+  margin-left: 16px;
+  color: #fff;
+  font-family: Noto Sans KR;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.redboxtext {
+  color: var(--White, #fff);
+  text-align: center;
+  font-family: Noto Sans KR;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 164.8%; /* 32.96px */
+}
+.crtext {
+  color: var(--White, #fff);
+  text-align: right;
+  font-family: Noto Sans KR;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 200% */
+}
+/* FOOTER TEXTS */
+/* FOOTER IMGS */
+.flogo {
+  width: 157px;
+  height: 52px;
+}
+.fimg {
+  width: 50px;
+  height: 49px;
+}
+/* FOOTER IMGS */
+.inputdiv {
+  margin-left: 94px;
+  display: flex;
+  flex-direction: column;
+  width: 397px;
+  gap: 10px;
+}
+.input {
+  align-items: center;
+  background: #2a263c;
+  padding: 16px 24px;
+  border: none;
+  outline: none;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Noto Sans KR;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 164.8%; /* 32.96px */
+  gap: 32px;
+}
+.iplaceholder {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Noto Sans KR;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 164.8%; /* 32.96px */
+}
+.checkboxdiv {
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  max-width: 200px;
+  height: 20px;
+}
+.cbdivchild {
+  display: flex;
+}
+.checkbox1 {
+  margin-top: 0;
+  width: 19px;
+  height: 20px;
+  border-radius: 17px;
+  border: 2px solid #474166;
+  outline: none;
+  appearance: none;
+}
+.checkbox2 {
+  margin-left: 20px;
+  border-radius: 17px;
+  border: 2px solid #474166;
+  background: var(--d-03-a-3-b, #d03a3b);
+  width: 19px;
+  height: 20px;
+  appearance: none;
+}

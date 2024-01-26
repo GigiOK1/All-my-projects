@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: none;
+  text-decoration: none;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.card {
+  justify-content: center;
+}

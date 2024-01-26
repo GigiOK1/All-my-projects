@@ -1,0 +1,44 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    border: none;
+
+}
+.div{
+    align-items: center;
+    justify-self: center;
+    flex-direction: column;
+    display: flex;
+    flex: 19%;
+}
+.photo{
+    align-content: center;
+    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+
+}
+.CN{
+    font-size: 24px ;
+    text-align: center;
+
+}
+.h4{
+    text-align: center;
+    font-size: 15px;
+
+}
+.p{
+    text-align: center;
+    margin-top: 24px;
+    max-width: 200px;
+
+}
+.section{
+    display: flex;
+    margin-top: 10%;
+}

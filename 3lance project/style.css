@@ -1,0 +1,340 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  border: none;
+  text-decoration: none;
+  background: none;
+}
+
+header {
+  padding: 32px;
+}
+body {
+  background: url(Home.png);
+}
+
+.bg {
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+}
+
+/* inactive text */
+.ti {
+  color: #676780;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.48px;
+}
+.ta {
+  color: #fff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.48px;
+}
+.grtext {
+  color: rgba(197, 197, 220, 0.5);
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+.lt {
+  width: 81.349px;
+  height: 17.64px;
+}
+/* divs */
+.headerdiv1 {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 1px rgba(255, 255, 255, 0.094);
+  max-width: 1415px;
+  margin: auto;
+  height: 46px;
+}
+.headerdiv2 {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+.divbtns {
+}
+.nav {
+  display: flex;
+  gap: 40px;
+}
+nav a {
+  z-index: 2;
+  color: #676780;
+  transition: 0.3s;
+}
+nav a:hover {
+  color: #fff;
+}
+.divbtns button:nth-child(2) {
+  color: #62e6be;
+  text-shadow: 0px 4px 8px rgba(63, 57, 129, 0.4);
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.48px;
+  display: inline-flex;
+  padding: 12px 24px;
+  gap: 10px;
+  border-radius: 8px;
+  background: rgba(98, 230, 190, 0.1);
+  transition: 0.3s;
+}
+.divbtns button:nth-child(2):hover {
+  color: #62e6be;
+  text-shadow: 0px 4px 8px rgba(63, 57, 129, 0.4);
+  border-radius: 8px;
+  background: rgba(67, 226, 178, 0.5);
+}
+.slogandiv1 {
+  display: flex;
+  flex-direction: row;
+  height: 500px;
+  width: 1500px;
+  margin-top: 150px;
+  margin-left: 240px;
+}
+.divbtns button:nth-child(1) {
+  color: #fff;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.48px;
+  padding-left: 32px;
+  transition: 0.3s;
+}
+.divbtns button:nth-child(1):hover {
+  color: #62e6be;
+}
+
+.t1 {
+  font-family: Raleway;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 99.6%; /* 79.68px */
+  letter-spacing: -3.2px;
+  background: var(--Style, linear-gradient(180deg, #e4e2f4 0%, #babad3 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.t2 {
+  color: var(--62-e-6-be, #62e6be);
+  font-family: Raleway;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 99.6%;
+  letter-spacing: -3.2px;
+}
+.textbox {
+  width: 500px;
+  height: 300px;
+}
+.textboxp {
+  width: 100%;
+}
+.ball {
+  display: flex;
+  width: 386px;
+  height: 264px;
+  margin-right: 0%;
+}
+.balldiv {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin-right: 0%;
+}
+.slogandivhalf {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+}
+.grtdiv {
+  display: flex;
+  width: 400px;
+  height: 48px;
+}
+.sloganbtns {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+.btntext1 {
+  color: #100f15;
+  text-shadow: 0px 4px 8px rgba(63, 57, 129, 0.4);
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.54px;
+}
+.btntext2 {
+  color: #fff;
+  text-shadow: 0px 4px 8px rgba(63, 57, 129, 0.4);
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.54px;
+}
+.btn1 {
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+  border: 2px solid rgba(109, 98, 230, 0.2);
+  margin-top: 40px;
+  transition: 0.3s;
+}
+.btn1:hover {
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+  background: var(--62-e-6-be, #62e6be);
+}
+.menubtn {
+  display: none;
+}
+.vertdiv {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 260px;
+  background: rgba(109, 98, 230, 0.05);
+}
+.w {
+  padding-top: 20px;
+  color: white;
+}
+.vertdivsquare {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 151px;
+  border-radius: 8px;
+  border: 2px solid rgba(109, 98, 230, 0.2);
+  transition: 0.5s;
+}
+.vertdivsquare:hover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 151px;
+  border-radius: 8px;
+  border: 2px solid rgba(109, 98, 230, 0.2);
+  background: rgba(109, 98, 230, 0.1);
+  color: #6d62e6;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.verttextd {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  gap: 150px;
+}
+.icon2 {
+  height: 80px;
+  width: 80px;
+}
+.vertdivarray {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+@media screen and (max-width: 600px) {
+  .vertdivarray {
+    flex-direction: column;
+  }
+  .vertdiv {
+    width: 600px;
+    height: 733px;
+  }
+  .balldiv {
+    width: 600px;
+  }
+  .ball {
+    margin-left: 0;
+  }
+  .slogandivhalf {
+    justify-content: center;
+    align-items: center;
+  }
+  .textbox {
+    margin-left: 350px;
+  }
+  .grtdiv {
+    margin-left: 250px;
+  }
+  .sloganbtns {
+    margin-left: 120px;
+  }
+  .slogandiv1 {
+    width: 600px;
+    height: 850px;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .textbox {
+    flex-direction: column;
+  }
+  .headerdiv1 {
+    align-items: center;
+  }
+  .headerdiv2 {
+    width: 600px;
+  }
+  .menubtn {
+    display: block;
+    margin-right: 0;
+  }
+  .nav {
+    display: none;
+  }
+
+  .divbtns {
+    display: none;
+  }
+}
